@@ -36,17 +36,17 @@ def binarystring_to_list(string):
 
     return string_list
 
-user_input = raw_input('insert your character string: ')
-
-encoded_data = binarystring_to_list(manchester_encoding(letter_bin_code(user_input)))
-
-x = np.arange(1, len(encoded_data) + 1, 1)
-
+# user_input = raw_input('insert your character string: ')
 #
-
-plt.step(x, encoded_data)
-plt.xlim(0, len(encoded_data) + 1)
-plt.ylim(-1, 2)
-plt.title('Manchester Encoding')
-plt.show()
+# encoded_data = binarystring_to_list(manchester_encoding(user_input))
+#
+# x = np.arange(1, len(encoded_data) + 1, 1)
+#
+# # Graph
+#
+# plt.step(x, encoded_data)
+# plt.xlim(0, len(encoded_data) + 1)
+# plt.ylim(-1, 2)
+# plt.title('Manchester Encoding')
+# plt.show()
 
